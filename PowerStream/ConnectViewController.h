@@ -17,8 +17,6 @@ NSOutputStream *outputStream;
 @property (strong, nonatomic) IBOutlet UIView *connectView;
 - (IBAction)joinServer:(id)sender;
 
-@property (weak, nonatomic) IBOutlet UIView *chatView;
-@property (weak, nonatomic) IBOutlet UITextField *inputMessageField;
 
 
 @end
