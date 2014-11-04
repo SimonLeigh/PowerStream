@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		F4111DDF1A027C63001D4FA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4111DDE1A027C63001D4FA3 /* main.m */; };
 		F4111DE21A027C63001D4FA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4111DE11A027C63001D4FA3 /* AppDelegate.m */; };
-		F4111DE51A027C63001D4FA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4111DE41A027C63001D4FA3 /* ViewController.m */; };
+		F4111DE51A027C63001D4FA3 /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4111DE41A027C63001D4FA3 /* ConnectViewController.m */; };
 		F4111DE81A027C63001D4FA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4111DE61A027C63001D4FA3 /* Main.storyboard */; };
 		F4111DEA1A027C63001D4FA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4111DE91A027C63001D4FA3 /* Images.xcassets */; };
 		F4111DED1A027C63001D4FA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4111DEB1A027C63001D4FA3 /* LaunchScreen.xib */; };
 		F4111DF91A027C64001D4FA3 /* PowerStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4111DF81A027C64001D4FA3 /* PowerStreamTests.m */; };
+		F4111E3F1A07EB12001D4FA3 /* PowerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4111E3E1A07EB12001D4FA3 /* PowerTableViewController.m */; };
+		F4111E421A09094B001D4FA3 /* PowerData.m in Sources */ = {isa = PBXBuildFile; fileRef = F4111E411A09094B001D4FA3 /* PowerData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		F4111DDE1A027C63001D4FA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4111DE01A027C63001D4FA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F4111DE11A027C63001D4FA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F4111DE31A027C63001D4FA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F4111DE41A027C63001D4FA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4111DE31A027C63001D4FA3 /* ConnectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectViewController.h; sourceTree = "<group>"; };
+		F4111DE41A027C63001D4FA3 /* ConnectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectViewController.m; sourceTree = "<group>"; };
 		F4111DE71A027C63001D4FA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4111DE91A027C63001D4FA3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F4111DEC1A027C63001D4FA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F4111DF21A027C64001D4FA3 /* PowerStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4111DF71A027C64001D4FA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4111DF81A027C64001D4FA3 /* PowerStreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PowerStreamTests.m; sourceTree = "<group>"; };
+		F4111E3D1A07EB12001D4FA3 /* PowerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerTableViewController.h; sourceTree = "<group>"; };
+		F4111E3E1A07EB12001D4FA3 /* PowerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PowerTableViewController.m; sourceTree = "<group>"; };
+		F4111E401A09094B001D4FA3 /* PowerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerData.h; sourceTree = "<group>"; };
+		F4111E411A09094B001D4FA3 /* PowerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PowerData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +89,13 @@
 			children = (
 				F4111DE01A027C63001D4FA3 /* AppDelegate.h */,
 				F4111DE11A027C63001D4FA3 /* AppDelegate.m */,
-				F4111DE31A027C63001D4FA3 /* ViewController.h */,
-				F4111DE41A027C63001D4FA3 /* ViewController.m */,
+				F4111DE31A027C63001D4FA3 /* ConnectViewController.h */,
+				F4111DE41A027C63001D4FA3 /* ConnectViewController.m */,
 				F4111DE61A027C63001D4FA3 /* Main.storyboard */,
+				F4111E3D1A07EB12001D4FA3 /* PowerTableViewController.h */,
+				F4111E3E1A07EB12001D4FA3 /* PowerTableViewController.m */,
+				F4111E401A09094B001D4FA3 /* PowerData.h */,
+				F4111E411A09094B001D4FA3 /* PowerData.m */,
 				F4111DE91A027C63001D4FA3 /* Images.xcassets */,
 				F4111DEB1A027C63001D4FA3 /* LaunchScreen.xib */,
 				F4111DDC1A027C63001D4FA3 /* Supporting Files */,
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4111DE51A027C63001D4FA3 /* ViewController.m in Sources */,
+				F4111DE51A027C63001D4FA3 /* ConnectViewController.m in Sources */,
+				F4111E421A09094B001D4FA3 /* PowerData.m in Sources */,
 				F4111DE21A027C63001D4FA3 /* AppDelegate.m in Sources */,
 				F4111DDF1A027C63001D4FA3 /* main.m in Sources */,
+				F4111E3F1A07EB12001D4FA3 /* PowerTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
